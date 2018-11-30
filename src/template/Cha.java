@@ -11,4 +11,9 @@ public class Cha extends BebidaCafeinada {
 	public void addCondimentos() {
 		System.out.println("Adicionando algumas gotas de limão ao chá.");
 	}
+	
+	@Override
+	public boolean temCondimentos() {
+		return false;
+	}
 }
